@@ -1,0 +1,10 @@
+{
+  "ios": {
+    "buildConfiguration": "Release",
+    "exportMethod": "app-store"
+  },
+  "android": {
+    "buildConfiguration": "Release",
+    "exportMethod": "play"
+  }
+}

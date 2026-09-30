@@ -7,15 +7,19 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nearbyhands.app",
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to access your photo library?",
+        "NSPhotoLibraryUsageDescription": "This app accesses photo library to upload listings"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "package": "com.nearbyhands.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
